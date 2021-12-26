@@ -1,0 +1,416 @@
+CRITICAL - 2021-12-26 00:06:35 --> Undefined index: file
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 115, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_file_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 00:06:54 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 117, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_file_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 00:21:50 --> Call to undefined function App\Controllers\response()
+#0 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->download_file('5')
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-12-26 00:29:13 --> Undefined variable: isfile
+#0 C:\laragon\www\blankpage\app\Views\investors\admin_content_list.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 16, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/admin...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(76): view('investors/admin...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_list('1')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 00:33:01 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 72, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_list('1')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 00:33:02 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 72, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_list('1')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 00:33:24 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 72, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_list('1')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 00:40:42 --> Call to a member function getInsertID() on int
+#0 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->menu_add_action()
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-12-26 00:41:24 --> Trying to get property 'getResultArray' of non-object
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->menu_add_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 00:41:50 --> Call to a member function getResultArray() on int
+#0 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->menu_add_action()
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-12-26 00:42:01 --> Call to a member function getResultArray() on int
+#0 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->menu_add_action()
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-12-26 00:46:29 --> Trying to get property 'resultID' of non-object
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 55, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->menu_add_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 01:02:31 --> Undefined index: withyear
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 80, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_list('2')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 01:02:44 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 91, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_list('2')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 01:11:01 --> Undefined variable: menufront_id
+#0 C:\laragon\www\blankpage\app\Views\investors\admin_content_list.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 12, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/admin...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(86): view('investors/admin...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_list('2')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 03:16:42 --> Too few arguments to function App\Controllers\Investors::post(), 1 passed in C:\laragon\www\blankpage\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post('4')
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-12-26 03:18:23 --> Cannot use object of type App\Models\MenuFront as array
+#0 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('4')
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-12-26 03:18:43 --> Cannot use object of type App\Models\MenuFront as array
+#0 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('4')
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-12-26 03:18:58 --> Invalid file: render_content_file.php
+#0 C:\laragon\www\blankpage\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('render_content_...')
+#1 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('render_content_...', Array, true)
+#2 C:\laragon\www\blankpage\app\Controllers\Investors.php(160): view('render_content_...', Array)
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('4')
+#4 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-12-26 03:19:11 --> Undefined index: nama
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_file.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 10, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(160): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('4')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 03:52:05 --> Cannot use object of type App\Models\MenuFront as array
+#0 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_year('4', Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2021-12-26 03:52:18 --> Invalid file: render_content_file.php
+#0 C:\laragon\www\blankpage\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('render_content_...')
+#1 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('render_content_...', Array, true)
+#2 C:\laragon\www\blankpage\app\Controllers\Investors.php(192): view('render_content_...', Array)
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_year('4', Array)
+#4 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-12-26 03:52:30 --> Undefined variable: year
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_file.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 10, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(192): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_year('4', Array)
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:17:45 --> Undefined variable: withyer
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_html.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 7, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(175): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('5')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:17:51 --> Undefined variable: datamenu
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_html.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(175): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('5')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:19:57 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\laragon\www\blankpage\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\blankpage\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\blankpage\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-12-26 04:27:01 --> Undefined variable: year
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_html.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(169): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('6')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:27:28 --> compact(): Undefined variable: year
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'C:\\laragon\\www\\...', 169, Array)
+#1 C:\laragon\www\blankpage\app\Controllers\Investors.php(169): compact('datacontent', 'datamenu', 'withyear', 'year')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('6')
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#4 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2021-12-26 04:28:18 --> Undefined variable: year
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_html.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(169): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('6')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:29:03 --> Undefined index: withyear
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_html.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 7, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(169): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('6')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:29:11 --> Undefined variable: year
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_html.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(169): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('6')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:29:22 --> Undefined variable: year
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_html.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(169): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('6')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:30:09 --> Undefined variable: year
+#0 C:\laragon\www\blankpage\app\Views\investors\render_content_html.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('investors/rende...', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Investors.php(169): view('investors/rende...', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('6')
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 04:33:55 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:33:58 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:33:58 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:33:58 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:35:27 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:35:30 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:36:41 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:42:24 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:42:26 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:42:26 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:42:26 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:42:26 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 04:42:26 --> Undefined index: year
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 119, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->content_editor_edit_action()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
