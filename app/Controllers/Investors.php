@@ -8,6 +8,11 @@ use org\bovigo\vfs\vfsStreamContainerIterator;
 
 class Investors extends BaseController
 {
+    public function index_redirect()
+    {
+        return redirect()->to(base_url('investors'));
+    }
+
     public function index()
     {
         $menufront = new MenuFront();

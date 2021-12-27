@@ -59,6 +59,7 @@ $routes->post('/maps/(:any)', 'Maps::getCity/$1');
 
 $routes->get('/careers', 'Career::index');
 $routes->get('/careers/([0-9]+)', 'Career::detail/$1');
+$routes->get('/', 'Investors::index_redirect');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
