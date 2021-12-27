@@ -53,6 +53,12 @@ $routes->get('/investors/content/file/download/([0-9]+)', 'Investors::download_f
 $routes->get('/investors/post/([0-9]+)', 'Investors::post_without_year/$1');
 $routes->get('/investors/post/([0-9]+)/([0-9]+)', 'Investors::post_year/$1/$2');
 
+$routes->get('/maps', 'Maps::index');
+$routes->post('/maps/all', 'Maps::getAll');
+$routes->post('/maps/(:any)', 'Maps::getCity/$1');
+
+$routes->get('/careers', 'Career::index');
+$routes->get('/careers/([0-9]+)', 'Career::detail/$1');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

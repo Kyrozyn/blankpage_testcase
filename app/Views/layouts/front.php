@@ -215,14 +215,14 @@
                             </ul>
                         </li>
                         <li class="nav-main-item">
-                            <a class="nav-main-link" href="javascript:void(0)">
+                            <a class="nav-main-link" href="<?= base_url('maps') ?>">
                                 <i class="nav-main-link-icon fa fa-map"></i>
                                 <span class="nav-main-link-name">Leaflet Maps</span>
                             </a>
                         </li>
                         <li class="nav-main-item">
-                            <a class="nav-main-link" href="javascript:void(0)">
-                                <i class="nav-main-link-icon fab fa-paypal"></i>
+                            <a class="nav-main-link" href="<?= base_url('careers') ?>">
+                                <i class="nav-main-link-icon fa fa-people-arrows"></i>
                                 <span class="nav-main-link-name">Career</span>
                             </a>
                         </li>

@@ -414,3 +414,239 @@ CRITICAL - 2021-12-26 04:42:26 --> Undefined index: year
 #4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
 #6 {main}
+CRITICAL - 2021-12-26 07:46:37 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\blankpage\app\Controllers\Investors.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 159, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Investors->post_without_year('6')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Investors))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 08:12:32 --> Invalid file: maps/index.php
+#0 C:\laragon\www\blankpage\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('maps/index.php')
+#1 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('maps/index', Array, true)
+#2 C:\laragon\www\blankpage\app\Controllers\Maps.php(11): view('maps/index')
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->index()
+#4 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-12-26 12:12:17 --> Array to string conversion
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 16, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 12:34:36 --> Array to string conversion
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 16, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:15:26 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:15:28 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:15:44 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:15:45 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:15:46 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:15:48 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:15:50 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:15:52 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:19:59 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:20:01 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:20:09 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:21:41 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:26:21 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:26:31 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 13:26:44 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getAll()
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 14:00:00 --> Undefined index: city
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 22, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getCity('Jakarta')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 14:03:23 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 22, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getCity('Tangerang')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 14:04:45 --> Undefined index: post
+#0 C:\laragon\www\blankpage\app\Controllers\Maps.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 22, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Maps->getCity('Jakarta')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Maps))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+ERROR - 2021-12-26 16:23:12 --> Table 'maps' already exists
+ERROR - 2021-12-26 16:52:56 --> Table 'blankpage.careers' doesn't exist
+CRITICAL - 2021-12-26 16:52:56 --> Table 'blankpage.careers' doesn't exist
+#0 C:\laragon\www\blankpage\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\blankpage\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\blankpage\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\blankpage\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\blankpage\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\blankpage\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\blankpage\app\Controllers\Career.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Career->index()
+#8 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career))
+#9 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2021-12-26 16:53:20 --> Trying to get property 'title' of non-object
+#0 C:\laragon\www\blankpage\app\Views\career\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 83, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('career/index', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Career.php(14): view('career/index', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Career->index()
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2021-12-26 18:23:43 --> Undefined variable: career
+#0 C:\laragon\www\blankpage\app\Controllers\Career.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Career->detail('1')
+#2 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career))
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2021-12-26 18:23:52 --> Invalid file: career/detail.php
+#0 C:\laragon\www\blankpage\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('career/detail.p...')
+#1 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('career/detail', Array, true)
+#2 C:\laragon\www\blankpage\app\Controllers\Career.php(21): view('career/detail', Array)
+#3 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Career->detail('1')
+#4 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career))
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2021-12-26 18:35:09 --> Undefined variable: campus
+#0 C:\laragon\www\blankpage\app\Views\career\index.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 117, Array)
+#1 C:\laragon\www\blankpage\system\View\View.php(214): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\blankpage\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\blankpage\system\Common.php(1097): CodeIgniter\View\View->render('career/index', Array, true)
+#4 C:\laragon\www\blankpage\app\Controllers\Career.php(14): view('career/index', Array)
+#5 C:\laragon\www\blankpage\system\CodeIgniter.php(824): App\Controllers\Career->index()
+#6 C:\laragon\www\blankpage\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Career))
+#7 C:\laragon\www\blankpage\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\blankpage\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\blankpage\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

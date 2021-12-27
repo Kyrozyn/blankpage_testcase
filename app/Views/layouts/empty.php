@@ -36,7 +36,7 @@
 </head>
 <body>
 <!-- Page Container -->
-<div id="page-container" class="sidebar-dark side-scroll page-header-fixed page-header-glass main-content-boxed">
+<div id="page-container" class="sidebar-dark side-scroll page-header-fixed page-header-glass main-content-boxed bg-white">
 
     <!-- Main Container -->
     <?= $this->renderSection('content') ?>
