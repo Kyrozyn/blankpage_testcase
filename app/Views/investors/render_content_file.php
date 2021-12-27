@@ -25,7 +25,7 @@
                     </div>
                     <div class="block-content text-center">
                         <h5 class=""><?= $content['year'] ?></h5>
-                        <a class="btn btn-primary btn-sm align-content-center" href="<?= base_url('/investors/content/file/download/'.$content['id']) ?>">Download</a>
+                        <a class="btn btn-primary btn-sm align-content-center" href="<?= base_url('investors/content/file/download/'.$content['id']) ?>">Download</a>
                     </div>
                 </div>
             </div>
