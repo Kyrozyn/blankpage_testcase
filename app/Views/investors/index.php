@@ -58,7 +58,7 @@
                 </div>
                 <div class="col-12 col-md-8">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="http://localhost:8080/investors/post/<?= $id ?>"
+                        <iframe class="embed-responsive-item" src="<?= base_url('investors/post').'/'.$id ?>"
                                 allowfullscreen name="iframefront"></iframe>
                     </div>
                 </div>
