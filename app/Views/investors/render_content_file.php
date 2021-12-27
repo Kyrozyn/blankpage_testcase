@@ -31,5 +31,10 @@
             </div>
             <?php } ?>
         </div>
+        <div class="row">
+            <?php if(isset($pager)) { ?>
+            <?= $pager->simpleLinks() ?>
+            <?php } ?>
+        </div>
     </div>
 <?= $this->endSection() ?>

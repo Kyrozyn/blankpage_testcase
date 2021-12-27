@@ -169,7 +169,9 @@ class Investors extends BaseController
             return view('investors/render_content_html',compact('datacontent','datamenu','withyear'));
         }
         if($datamenu['category'] == 'File'){
-            return view('investors/render_content_file',compact('datacontent','datamenu','year'));
+            $datacontent = $MenuContent->where(['menufront_id' => $menufront_id])->paginate(3);
+            $pager = $MenuContent->pager;
+            return view('investors/render_content_file',compact('datacontent','datamenu','year','pager'));
         }
         else{
             $datacontent = [];
